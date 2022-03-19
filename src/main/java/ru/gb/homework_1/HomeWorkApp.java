@@ -2,8 +2,8 @@ package ru.gb.homework_1;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-        printThreeWords();
-        checkSumSign();
+        printThreeWords(); // первый метод
+        checkSumSign(); // второй метод
         printColor();
         compareNumbers();
     }

@@ -5,13 +5,26 @@ import sun.management.snmp.jvminstr.JvmOSImpl;
 public class Homework2 {
 
     public static void main(String[] args) {
-        homeTask1();
-        homeTask1WithReturn(17, 8);
-        System.out.println(homeTask1WithReturn(17, 8));
-        homeTask2(-1);
-        homeTask3(2);
-        System.out.println(homeTask3(-2));
-        getStringAndNumber("string", 10);
+//        homeTask1();
+//        homeTask1WithReturn(17, 8);
+//        System.out.println(homeTask1WithReturn(17, 8));
+//        homeTask2(-1);
+//        homeTask3(2);
+//        System.out.println(homeTask3(-2));
+//        getStringAndNumber("string", 10);
+        visokosnyYear();
+    }
+
+    public static void visokosnyYear () {
+        for (int b = 1; b < 100; b++) {
+            if (b == 400) {
+                System.out.println("Високосный год");
+            }
+            for (int a = 1; a < 4; a++) {
+                System.out.println("Невисокосный год");
+            }
+            System.out.println("Високосный год");
+        }
     }
 
     public static void getStringAndNumber(String word, int count) {

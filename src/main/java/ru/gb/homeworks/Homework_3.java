@@ -7,7 +7,22 @@ public class Homework_3 {
 //        replaceValue();
 //        toFillArray();
 //        multipleByTwo();
-        drawDiagonal();
+//        drawDiagonal();
+        returnInitialValue(4,77);
+    }
+
+/*
+         5. Написать метод, принимающий на вход два аргумента: len и initialValue,
+            и возвращающий одномерный массив типа int длиной len,
+            каждая ячейка которого равна initialValue;
+ */
+    public static int[] returnInitialValue(int len, int initialValue) {
+        int[] intArr = new int[len];
+         for (int i = 0;  i < intArr.length; i++) {
+             intArr[i] = initialValue;
+         }
+        System.out.println(Arrays.toString(intArr));
+         return intArr;
     }
 
     /*

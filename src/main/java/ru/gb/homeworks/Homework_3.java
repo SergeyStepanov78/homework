@@ -8,8 +8,27 @@ public class Homework_3 {
 //        toFillArray();
 //        multipleByTwo();
 //        drawDiagonal();
-        returnInitialValue(4,77);
+//        returnInitialValue(4,77);
+        minAndMax();
     }
+
+/*
+         6. * Задать одномерный массив и найти в нем минимальный и максимальный элементы ;
+ */
+    public static void minAndMax () {
+        int[] arr = new int[] {-2, -5, -3, -4, -1};
+        int max = arr[0];
+        int min = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) min = arr[i]; // почему код блока if работает и без фигурных скобок?
+        }
+        System.out.println("max value is " + max);
+        System.out.println("min value is " + min);
+    }
+
 
 /*
          5. Написать метод, принимающий на вход два аргумента: len и initialValue,

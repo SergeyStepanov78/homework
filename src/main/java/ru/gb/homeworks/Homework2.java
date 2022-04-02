@@ -1,21 +1,19 @@
-package ru.gb.homework_1;
-
-import sun.management.snmp.jvminstr.JvmOSImpl;
+package ru.gb.homeworks;
 
 public class Homework2 {
 
     public static void main(String[] args) {
-//        homeTask1();
-//        homeTask1WithReturn(17, 8);
-//        System.out.println(homeTask1WithReturn(17, 8));
-//        homeTask2(-1);
-//        homeTask3(2);
-//        System.out.println(homeTask3(-2));
-//        getStringAndNumber("string", 10);
+        homeTask1();
+        homeTask1WithReturn(17, 8);
+        System.out.println(homeTask1WithReturn(17, 8));
+        homeTask2(-1);
+        homeTask3(2);
+        System.out.println(homeTask3(-2));
+        getStringAndNumber("string", 10);
         visokosnyYear();
     }
 
-    public static void visokosnyYear () {
+    public static void visokosnyYear() {
         for (int b = 1; b < 100; b++) {
             if (b == 400) {
                 System.out.println("Високосный год");

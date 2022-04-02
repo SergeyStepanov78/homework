@@ -1,4 +1,4 @@
-package ru.gb.homework_1;
+package ru.gb.homeworks;
 
 public class HomeWorkApp {
     public static void main(String[] args) {

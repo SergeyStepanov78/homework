@@ -18,11 +18,12 @@ public class Homework5 {
         userArr[4] = new Employee("User5", "PO", "user5@e.mail", "951", 5000, 42);
         for (Employee i : userArr) {
             if(i.getAge() > 40)
-            System.out.print(">40 " +i);
+                i.printEmployee();
+//            userArr[i].printEmployee();
         }
 
         System.out.println();
-        System.out.println(Arrays.toString(userArr));
+//        System.out.println(Arrays.toString(userArr));
     }
 
 //    Employee[] userArr = new Employee[5];

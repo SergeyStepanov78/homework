@@ -17,16 +17,16 @@ public class Employee {
         this.age = age;
     }
 
-//    public void printEmployee () {
-//         System.out.printf("Employee: name-%s, position-%s, email-%s, phone-%s, salary-%d, age-%d", name, position, email, phone, salary, age);
-//    }
+    public void printEmployee () {
+         System.out.printf("Employee: name-%s, position-%s, email-%s, phone-%s, salary-%d, age-%d\n", name, position, email, phone, salary, age);
+    }
 
     public int getAge() {
         return this.age;
     }
 
-    @Override
-    public String toString() {
-        return String.format("Employee: name-%s, position-%s, email-%s, phone-%s, salary-%d, age-%d\n", name, position, email, phone, salary, age);
-    }
+//    @Override
+//    public String toString() {
+//        return String.format("Employee: name-%s, position-%s, email-%s, phone-%s, salary-%d, age-%d\n", name, position, email, phone, salary, age);
+//    }
 }
